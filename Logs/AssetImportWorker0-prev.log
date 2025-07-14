@@ -1,0 +1,586 @@
+Using pre-set license
+Built from '6000.1/staging' branch; Version is '6000.1.0f1 (9ea152932a88) revision 10395986'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16250 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Date: 2025-05-19T19:12:28Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\6000.1.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Tommy/Royal Palace Roleplay
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60678
+-job-worker-count
+1
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/Tommy/Royal Palace Roleplay
+C:/Users/Tommy/Royal Palace Roleplay
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16100]  Target information:
+
+Player connection [16100] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16100] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 1
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2685.72 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 38.13 ms.
+Initialize engine version: 6000.1.0f1 (9ea152932a88)
+[Subsystems] Discovering subsystems at path C:/Program Files/6000.1.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Tommy/Royal Palace Roleplay/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 940MX (ID=0x134d)
+    Vendor:   NVIDIA
+    VRAM:     2001 MB
+    Driver:   32.0.15.6614
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Initialize mono
+Mono path[0] = 'C:/Program Files/6000.1.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/6000.1.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/6000.1.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/6000.1.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/6000.1.0f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/6000.1.0f1/Editor/Data/PlaybackEngines/VisionOSPlayer/UnityEditor.VisionOS.Extensions.dll
+Register platform support module: C:/Program Files/6000.1.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/6000.1.0f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Register platform support module: C:/Program Files/6000.1.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/6000.1.0f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/6000.1.0f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: C:/Program Files/6000.1.0f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.331628 seconds.
+- Loaded All Assemblies, in  6.437 seconds
+Native extension for LinuxStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1695 ms
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/6000.1.0f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.227 seconds
+Domain Reload Profiling: 10652ms
+	BeginReloadAssembly (4230ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (126ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (584ms)
+	LoadAllAssembliesAndSetupDomain (1447ms)
+		LoadAssemblies (4429ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1229ms)
+			TypeCache.Refresh (1224ms)
+				TypeCache.ScanAssembly (1181ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (4229ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3938ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2933ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (197ms)
+			ProcessInitializeOnLoadAttributes (526ms)
+			ProcessInitializeOnLoadMethodAttributes (270ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/NPCVillagerSpawner.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/SceneTransition.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/scene_management.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/animation_scenarios.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/Player Duel.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/character_animation.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/ui_system.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/SceneSwitcher.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/character_customization.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/MainMenuUI.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/Duel Request.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/Player State.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/HealthSystem.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/Player Combat.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/Shader.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/RealTimeDayNightController.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/CameraController.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/Camera.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/scene_rendering.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/camera_system.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/AudioStartup.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/CharacterSelection.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/audio_system.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/game_framework.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/Tests/Framework/RPGGameManager.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/physics_system.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/DuelUI.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/character_spawn.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/SamuraiCombat.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/Duel Manager.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/MenuInputController.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/EmpireFaction.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/AIEnemyController.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/NPCVillagerSpawner.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/SceneTransition.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/scene_management.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/animation_scenarios.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/Player Duel.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/character_animation.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/ui_system.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/SceneSwitcher.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/character_customization.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/MainMenuUI.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/Duel Request.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/Player State.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/HealthSystem.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/Player Combat.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/Shader.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/RealTimeDayNightController.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/CameraController.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/Camera.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/scene_rendering.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/camera_system.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/AudioStartup.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/CharacterSelection.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/audio_system.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/game_framework.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/Tests/Framework/RPGGameManager.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/physics_system.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/DuelUI.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/character_spawn.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/SamuraiCombat.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/Duel Manager.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/MenuInputController.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/EmpireFaction.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/AIEnemyController.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/NPCVillagerSpawner.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/SceneTransition.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/scene_management.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/animation_scenarios.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/Player Duel.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/character_animation.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/ui_system.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/SceneSwitcher.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/character_customization.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/MainMenuUI.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/Duel Request.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/Player State.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/HealthSystem.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/Player Combat.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/Shader.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/RealTimeDayNightController.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/CameraController.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/Camera.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/scene_rendering.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/camera_system.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/AudioStartup.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/CharacterSelection.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/audio_system.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/game_framework.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/Tests/Framework/RPGGameManager.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/physics_system.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/DuelUI.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/character_spawn.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/SamuraiCombat.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/Duel Manager.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/MenuInputController.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/EmpireFaction.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/AIEnemyController.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in 30.674 seconds
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/NPCVillagerSpawner.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/SceneTransition.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/scene_management.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/animation_scenarios.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/Player Duel.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/character_animation.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/ui_system.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/SceneSwitcher.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/character_customization.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/MainMenuUI.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/Duel Request.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/Player State.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/HealthSystem.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/Player Combat.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/Shader.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/RealTimeDayNightController.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/CameraController.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/Camera.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/scene_rendering.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/camera_system.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/AudioStartup.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/CharacterSelection.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/audio_system.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/game_framework.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/Tests/Framework/RPGGameManager.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/physics_system.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/DuelUI.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/character_spawn.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/SamuraiCombat.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/Duel Manager.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/MenuInputController.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/EmpireFaction.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/AIEnemyController.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 44.94 ms, found 10 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Failed to load: C:/Program Files/6000.1.0f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/NPCVillagerSpawner.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/SceneTransition.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/scene_management.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/animation_scenarios.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/Player Duel.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/character_animation.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/ui_system.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/SceneSwitcher.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/character_customization.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/MainMenuUI.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/Duel Request.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/Player State.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/HealthSystem.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/Player Combat.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/Shader.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/RealTimeDayNightController.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/CameraController.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/Camera.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/scene_rendering.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/camera_system.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/AudioStartup.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/CharacterSelection.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/audio_system.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/game_framework.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/Tests/Framework/RPGGameManager.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/physics_system.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/DuelUI.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/character_spawn.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/SamuraiCombat.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/Duel Manager.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/MenuInputController.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/EmpireFaction.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.universal-config/GameScripts/AIEnemyController.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Royal Palace Roleplay
+Refreshing native plugins compatible for Editor in 91.06 ms, found 10 plugins.
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.Multiplayer.Playmode.Workflow.Editor.ProjectDataStore..ctor (System.String directory) [0x0006e] in .\Library\PackageCache\com.unity.multiplayer.playmode@02aa7cbd48d1\Workflow\Editor\Configuration\ProjectDataStore.cs:55 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.ProjectDataStore.GetMain () [0x00000] in .\Library\PackageCache\com.unity.multiplayer.playmode@02aa7cbd48d1\Workflow\Editor\Configuration\ProjectDataStore.cs:36 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.WorkflowMainEditorContext..ctor (Unity.Multiplayer.Playmode.VirtualProjects.Editor.MainEditorContext mainEditorContext) [0x0002c] in .\Library\PackageCache\com.unity.multiplayer.playmode@02aa7cbd48d1\Workflow\Editor\Contexts\WorkflowMainEditorContext.cs:15 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.VirtualProjectWorkflow.InitializeMPPMContexts () [0x00018] in .\Library\PackageCache\com.unity.multiplayer.playmode@02aa7cbd48d1\Workflow\Editor\Workflow\VirtualProjectWorkflow.cs:204 
+  at Unity.Multiplayer.Playmode.Workflow.Editor.VirtualProjectWorkflow+<>c.<.cctor>b__22_0 () [0x00036] in .\Library\PackageCache\com.unity.multiplayer.playmode@02aa7cbd48d1\Workflow\Editor\Workflow\VirtualProjectWorkflow.cs:85 
+  at Unity.Multiplayer.Playmode.VirtualProjects.Editor.EditorContexts.SendReadyEvent () [0x00038] in .\Library\PackageCache\com.unity.multiplayer.playmode@02aa7cbd48d1\VirtualProjects\Editor\Contexts\EditorContexts.cs:56 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <8db6ec373e6d40bd9d38c8037d358c4e>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <8db6ec373e6d40bd9d38c8037d358c4e>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <8db6ec373e6d40bd9d38c8037d358c4e>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00100] in <2c15cbbf1b184f238c5db654082b15fa>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 17.272 seconds
+Domain Reload Profiling: 47899ms
+	BeginReloadAssembly (574ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (29ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (97ms)
+	RebuildCommonClasses (125ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (211ms)
+	LoadAllAssembliesAndSetupDomain (29681ms)
+		LoadAssemblies (27709ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2307ms)
+			TypeCache.Refresh (1585ms)
+				TypeCache.ScanAssembly (1491ms)
+			BuildScriptInfoCaches (661ms)
+			ResolveRequiredComponents (50ms)
+	FinalizeReload (17274ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (12725ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (101ms)
+			SetLoadedEditorAssemblies (25ms)
+			BeforeProcessingInitializeOnLoad (1245ms)
+			ProcessInitializeOnLoadAttributes (8798ms)
+			ProcessInitializeOnLoadMethodAttributes (2525ms)
+			AfterProcessingInitializeOnLoad (28ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'HDRP/TerrainLit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.28 seconds
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for vertex shader [0x80070057]
+D3D shader create error for domain shader [0x80070057]
+Shader warning in 'HDRP/LayeredLitTessellation': Ignoring duplicate keyword line 'shader_feature _ADD_PRECOMPUTED_VELOCITY'
+Shader warning in 'HDRP/LayeredLitTessellation': Ignoring duplicate keyword line 'shader_feature _NORMALMAP0'
+Shader warning in 'HDRP/LayeredLitTessellation': Ignoring duplicate keyword line 'shader_feature _NORMALMAP1'
+Shader warning in 'HDRP/LayeredLitTessellation': Ignoring duplicate keyword line 'shader_feature _NORMALMAP2'
+Shader warning in 'HDRP/LayeredLitTessellation': Ignoring duplicate keyword line 'shader_feature _NORMALMAP3'
+Shader warning in 'HDRP/LayeredLitTessellation': Ignoring duplicate keyword line 'shader_feature_fragment _ENABLE_GEOMETRIC_SPECULAR_AA'
+Shader warning in 'HDRP/LayeredLitTessellation': Ignoring duplicate keyword line 'shader_feature_raytracing _BENTNORMALMAP0'
+Shader warning in 'HDRP/LayeredLitTessellation': Ignoring duplicate keyword line 'shader_feature_raytracing _BENTNORMALMAP1'
+Shader warning in 'HDRP/LayeredLitTessellation': Ignoring duplicate keyword line 'shader_feature_raytracing _BENTNORMALMAP2'
+Shader warning in 'HDRP/LayeredLitTessellation': Ignoring duplicate keyword line 'shader_feature_raytracing _BENTNORMALMAP3'
+Shader warning in 'HDRP/LayeredLitTessellation': Ignoring duplicate keyword line 'shader_feature_raytracing _EMISSIVE_COLOR_MAP'
+Shader warning in 'HDRP/LayeredLitTessellation': Ignoring duplicate keyword line 'shader_feature_raytracing _MASKMAP0'
+Shader warning in 'HDRP/LayeredLitTessellation': Ignoring duplicate keyword line 'shader_feature_raytracing _MASKMAP1'
+Shader warning in 'HDRP/LayeredLitTessellation': Ignoring duplicate keyword line 'shader_feature_raytracing _MASKMAP2'
+Shader warning in 'HDRP/LayeredLitTessellation': Ignoring duplicate keyword line 'shader_feature_raytracing _MASKMAP3'
+D3D shader create error for vertex shader [0x80070057]
+Shader warning in 'HDRP/LayeredLit': Ignoring duplicate keyword line 'shader_feature _NORMALMAP0'
+Shader warning in 'HDRP/LayeredLit': Ignoring duplicate keyword line 'shader_feature _NORMALMAP1'
+Shader warning in 'HDRP/LayeredLit': Ignoring duplicate keyword line 'shader_feature _NORMALMAP2'
+Shader warning in 'HDRP/LayeredLit': Ignoring duplicate keyword line 'shader_feature _NORMALMAP3'
+D3D shader create error for domain shader [0x80070057]
+Refreshing native plugins compatible for Editor in 55.47 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 591 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19428 unused Assets / (28.4 MB). Loaded Objects now: 20093.
+Memory consumption went from 375.2 MB to 346.8 MB.
+Total: 63.091200 ms (FindLiveObjects: 3.607300 ms CreateObjectMapping: 10.891200 ms MarkObjects: 29.573500 ms  DeleteObjects: 19.016800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 27572.843857 seconds.
+  path: Assets/NPC/japanese_shrine_stairs_ud4mbgtfa_gltf_high.zip
+  artifactKey: Guid(90e9148b427cdbe4d8fea964fd436d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/japanese_shrine_stairs_ud4mbgtfa_gltf_high.zip using Guid(90e9148b427cdbe4d8fea964fd436d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86afe2afd46ff15adce07294ba5f0682') in 0.2537549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.743762 seconds.
+  path: Assets/NPC/japanese_shrine_stone_floor_ugrxbjkfa_gltf_high.zip
+  artifactKey: Guid(5b2068f243c419a44aceb4d55996d99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/japanese_shrine_stone_floor_ugrxbjkfa_gltf_high.zip using Guid(5b2068f243c419a44aceb4d55996d99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d968f40cae38523fc2548c2cdfee2e9') in 0.0030995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 260.767377 seconds.
+  path: Assets/NPC/marmoset_toolbag_4_demo.zip
+  artifactKey: Guid(8c60d95e31a6a9243bc4b9e673201c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/marmoset_toolbag_4_demo.zip using Guid(8c60d95e31a6a9243bc4b9e673201c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a75f4dafb00810b91f5c606e1c523604') in 0.0033464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 259.764253 seconds.
+  path: Assets/NPC/Structures/jap_house_1.blend
+  artifactKey: Guid(c4ccf746b40a84446b6b11dbea1a810b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Structures/jap_house_1.blend using Guid(c4ccf746b40a84446b6b11dbea1a810b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9326c4611767ec54524f4ef68eef9db6') in 26.1219425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 483
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/NPC/Structures/japanese-village-house.zip
+  artifactKey: Guid(9bd3f2146fc4dcc478f2e5d651ce24a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Structures/japanese-village-house.zip using Guid(9bd3f2146fc4dcc478f2e5d651ce24a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8fa5b81c880eaf7e3bdcab533e186622') in 0.0036319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 122.740298 seconds.
+  path: Assets/NPC/Structures/japanese_mossy_stone_wall_ulldfby_exr_raw.zip
+  artifactKey: Guid(225c584cb65a9a040bc3537aa3dacbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Structures/japanese_mossy_stone_wall_ulldfby_exr_raw.zip using Guid(225c584cb65a9a040bc3537aa3dacbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15270d3208b8ab3cb6862f7adfc515af') in 0.0027386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 278.819233 seconds.
+  path: Assets/NPC/Structures/japanese_mossy_stone_wall_ulldfby_gltf_high.zip
+  artifactKey: Guid(6abc43e486c0fbf42bbcdb1a830420e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Structures/japanese_mossy_stone_wall_ulldfby_gltf_high.zip using Guid(6abc43e486c0fbf42bbcdb1a830420e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e42db6aff1b98130d1e63905c799143b') in 0.0044094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 141.231583 seconds.
+  path: Assets/NPC/Structures/japanese_mossy_stone_wall_ulldfby_gltf_low.zip
+  artifactKey: Guid(5c820e3e51b130d4db551fe694e6c6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Structures/japanese_mossy_stone_wall_ulldfby_gltf_low.zip using Guid(5c820e3e51b130d4db551fe694e6c6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ca641a50b10ca236d90ce61393a0a14') in 0.0046262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.884106 seconds.
+  path: Assets/NPC/Structures/japanese_mossy_stone_wall_ulldfby_gltf_mid.zip
+  artifactKey: Guid(06bbc0655e51f2c499f6b10b1fbe7c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Structures/japanese_mossy_stone_wall_ulldfby_gltf_mid.zip using Guid(06bbc0655e51f2c499f6b10b1fbe7c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d1a984631857874e78006119262829a') in 0.0032149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.496853 seconds.
+  path: Assets/NPC/Structures/japanese_mossy_stone_wall_ulldfby_gltf_raw.zip
+  artifactKey: Guid(7f0f1c7c3ab22e241aca841658f12a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Structures/japanese_mossy_stone_wall_ulldfby_gltf_raw.zip using Guid(7f0f1c7c3ab22e241aca841658f12a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86b128914eae9dbbb2c585656e972d09') in 0.0031806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 126.356485 seconds.
+  path: Assets/NPC/Structures/japanese_mossy_stone_wall_ulldfby_high.zip
+  artifactKey: Guid(dc55bd02263803a4ea752a2fde043e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Structures/japanese_mossy_stone_wall_ulldfby_high.zip using Guid(dc55bd02263803a4ea752a2fde043e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd935d1861dda5dcbd973dbbd7ba04ac0') in 0.0032699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 106.512085 seconds.
+  path: Assets/NPC/Structures/japanese_mossy_stone_wall_ulldfby_low.zip
+  artifactKey: Guid(fa7095696cc0ded4e9ef24cf1b8d5e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Structures/japanese_mossy_stone_wall_ulldfby_low.zip using Guid(fa7095696cc0ded4e9ef24cf1b8d5e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ac77ddcd38d55e730664677dea5bada') in 0.0026331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.598185 seconds.
+  path: Assets/NPC/Structures/japanese_mossy_stone_wall_ulldfby_mid.zip
+  artifactKey: Guid(6068e7dbc85272440bd4df195abb2515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Structures/japanese_mossy_stone_wall_ulldfby_mid.zip using Guid(6068e7dbc85272440bd4df195abb2515) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '855b3e4728a2e92acf353dc54590b5f8') in 0.0307535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 111.353145 seconds.
+  path: Assets/NPC/Structures/japanese_mossy_stone_wall_ulldfby_raw.zip
+  artifactKey: Guid(bf6391c1d4bd32248ad421f5b89b881b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Structures/japanese_mossy_stone_wall_ulldfby_raw.zip using Guid(bf6391c1d4bd32248ad421f5b89b881b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b97ce880647a5c69e35c554df27fc301') in 0.004411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.984667 seconds.
+  path: Assets/NPC/Structures/japanese_mossy_stone_wall_ulldfby_ue_low.zip
+  artifactKey: Guid(ef2dbe40618cccf489607ffa58af1559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC/Structures/japanese_mossy_stone_wall_ulldfby_ue_low.zip using Guid(ef2dbe40618cccf489607ffa58af1559) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ab52a258d7a1f138baf957cfe313ce3') in 0.0045963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
